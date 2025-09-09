@@ -1,0 +1,63 @@
+# requirements.txt
+customtkinter==5.2.2
+pandas==2.1.4
+openpyxl==3.1.2
+fpdf2==2.7.9
+pdfplumber==0.10.3
+Pillow==10.1.0
+
+# KURULUM TALİMATLARI
+# ===================
+
+## 1. Python Kurulumu
+# Python 3.8 veya üzeri gereklidir
+# https://python.org adresinden indirin
+
+## 2. Kütüphane Kurulumu
+# Terminal/Command Prompt'ta şu komutu çalıştırın:
+pip install -r requirements.txt
+
+# Veya tek tek:
+pip install customtkinter pandas openpyxl fpdf2 pdfplumber Pillow
+
+## 3. Dosya Yapısı
+# Tüm dosyaları aynı klasöre yerleştirin:
+# - main.py
+# - ui_components.py
+# - pdf_processor.py
+# - export_manager.py
+# - requirements.txt
+
+## 4. Çalıştırma
+python main.py
+
+# ===================
+# ÖNEMLİ NOTLAR
+# ===================
+
+# CustomTkinter Hakkında:
+# - Modern UI kütüphanesi
+# - Tkinter'ın gelişmiş versiyonu
+# - Otomatik tema desteği
+# - Cross-platform uyumlu
+
+# Sistem Gereksinimleri:
+# - Windows 10/11, macOS 10.14+, Linux
+# - Python 3.8+
+# - 4GB RAM minimum
+# - 1GB boş disk alanı
+
+# Sorun Giderme:
+# 1. ModuleNotFoundError: pip install [kütüphane_adı]
+# 2. Permission Error: Yönetici olarak çalıştırın
+# 3. Font sorunları: Sistem fontları otomatik yüklenir
+# 4. PDF açma sorunu: Dosya izinlerini kontrol edin
+
+# Özelleştirme:
+# ui_components.py dosyasındaki colors dictionary'sini 
+# değiştirerek tema renklerini özelleştirebilirsiniz.
+
+# Performans İpuçları:
+# - Büyük PDF'ler için RAM kullanımı artabilir
+# - Export işlemleri sırasında disk alanını kontrol edin
+# - Log dosyaları düzenli olarak temizleyin
