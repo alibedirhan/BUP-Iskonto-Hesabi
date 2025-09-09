@@ -17,11 +17,8 @@ BUP-İskonto Hesabı, Bupiliç ürünlerinin iskonto hesaplamalarını hızlı v
 
 ## Ekran Görüntüsü ve Video
 
-### Video Demo
-<video controls width="800">
-  <source src="screenshots/iskonto_small.mp4" type="video/mp4">
-  Tarayıcınız video etiketini desteklemiyor.
-</video>
+### Gif Demo
+![Uygulama Demo](screenshots/iskonto_demo.gif)
 
 ### Ekran Görüntüleri
 ![Uygulama Arayüzü](screenshots/iskonto_demo.png)  
